@@ -3,27 +3,10 @@
 This is an update to the Orignal Project Spear. It includes true machine learning and role based datasets to increase effectivness.
 
 
- Role(program):
-    - Import role dataset 
-    - From the staff name given from input, get the relevant role directory
-    - Based on role:
-        a. Run Accountant Engine
-        b. Run Generic Engine
-
-Accountant Engine(program):
-    - Imports accountant dataset to process
-    - If detection is true:
-        a. Write contents to an external file.
-    - If no detection:
-        a. Its clean, End
-        b. Optional: Generic Engine(program) to get a second scan
-
-Generic Engine(program):
-    - Imports nonspecialised/ generic dataset to process
-    - If detection is true:
-        a. Write contents to an external file.
 
 
+
+![Screenshot_10](https://github.com/Abdurr224/Updated-Project-Spear/assets/166424757/7e83c00c-1fae-42a4-b470-cb459ec9a0f6)
 
 
 
