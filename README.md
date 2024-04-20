@@ -1,6 +1,6 @@
 # Updated-Project-Spear
 
-This is an update to the Orignal Project Spear. It includes true machine learning and role based datasets to increase effectivness.
+This is an update to the Orignal Project Spear. It includes true machine learning and role based datasets to increase effectivness in detection.
 
 
 
@@ -16,8 +16,10 @@ This is an update to the Orignal Project Spear. It includes true machine learnin
 
 
 
-In this scenario, the system is specifically tailored to address risks related to the exposure of data in a job role, which in this case is financial data from accountants. It operates with specialised dataset containing around 200 entries and 5000 entries for the generic dataset. Despite the relatively small size of the specialised dataset, they are of high quality. They are crafted to simulate real-world scenarios by impersonating various entities that accountants commonly interact with, including suppliers, banks, customers, investors, potential investors, and tax authorities. Moreover, they incorporate social engineering tactics from phishing attacks to enhance their effectiveness.
-Having a two datasets allows one being the generic dataset, act as default dataset relvent to all roles whilst, those with high data exposure will have unique and specialised datasets for extra precaution.
+The system is specifically tailored to address risks related to the exposure of data in a job role by minimising the success of phishing campaigns that target those high exposure individuals.In this scenario it relates to financial data from accountants. 
+
+The idea is to layer a role centric dataset and a generic dataset for maximum diligence. The role centric dataset contains around 200 entries and the general dataset contains 5000 entries. Despite the relatively small size of the specialised dataset, they are of high quality. They are crafted to simulate real-world contexts by impersonating various entities that accountants commonly interact with such as suppliers, banks, customers, investors, investors, and tax authorities. Moreover, they incorporate convincing social engineering tactics within the pretexting to help the machine learning algorithm pickup phishing just from those nuances.
+
 
 
 
