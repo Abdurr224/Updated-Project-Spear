@@ -27,10 +27,10 @@ machine learning algorithm pickup phishing just from those nuances.
 The last is flagged email aggregation. If any of the programs detect a phishing email, the email itself gets sent to an external file with metadata of the email and its recipient. This is important as it allows manual analysis of the email which could then be used for staff training or added to the dataset to increase the strength of the machine learning pool.
 
 How to run:
-1  - Download all repository contents into a single folder
-2  - Within the folder, run 'Roles Test.py'
-3  - There are some default names and roles already in the 'Roles1' spreadsheet. This system was designed with expandability in mind, so you can use the default names/roles or expand on them.
-4  - Add a text file to scan. Remember to add '.txt' to any file you input. There are already two default text files in this repository: 'clean.txt' and 'unclean.txt'. One is a phishing email, and one is a legitamate email both within the context for accountants.
+- Download all repository contents into a single folder
+-  Within the folder, run 'Roles Test.py'
+-  'Roles1' spreadsheet has the default names and roles. 
+-  Add a text file to scan. Remember to add '.txt' to any file you input. There are already two default text files to test phishing and legitamate emails: 'clean.txt' and 'unclean.txt'. 
 
 
 
