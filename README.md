@@ -4,7 +4,7 @@ This is an update to the Orignal Project Spear. It includes true machine learnin
 Feartures than have remained from th orginal:
 - Alerting System
 
-
+Script Functions:
 
 
 
