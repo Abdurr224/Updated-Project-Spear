@@ -3,7 +3,9 @@ from AccDatasetEngine import AccData
 from GenericDatasetEngine import GenData
 import subprocess
 import sys
+import os
 
+os.system("mode con cols=50 lines=50")
 
 def Start():
      print("")
