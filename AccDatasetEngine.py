@@ -158,7 +158,7 @@ def AccData():
             sys.exit
     except FileNotFoundError :
              print("File Not Found")        
-            
+             close()
 if __name__ == "__main__":
     
     pass
