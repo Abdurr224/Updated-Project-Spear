@@ -19,7 +19,7 @@ def close():
      if restart == "Y":
                subprocess.call([sys.executable, 'Roles Test.py'])
         
-     if restart == "N":
+     else:
         print("Closing...")
         time.sleep(2)
         sys.exit()   
