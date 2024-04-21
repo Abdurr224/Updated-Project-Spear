@@ -132,7 +132,7 @@ def GenData():
             close()
     except FileNotFoundError :
              print("File Not Found")        
-            
+             close()
 if __name__ == "__main__":
     # This code will only be executed if the script is run directly
     pass
