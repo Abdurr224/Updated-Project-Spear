@@ -1,7 +1,8 @@
 import pandas as pd
 from AccDatasetEngine import AccData
 from GenericDatasetEngine import GenData
-
+import subprocess
+import sys
 
 
 def Start():
@@ -34,3 +35,4 @@ if name in name_role_dict:
     
 else:
     print("Name not found in the database.")
+    subprocess.call([sys.executable, 'Roles Test.py'])
